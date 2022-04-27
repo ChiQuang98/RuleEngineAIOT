@@ -164,6 +164,7 @@ app.get('/rule-engine/getChannelsByUser/:token', (req, res) => {
     var req1 = http.request(options, callback);
     req1.end();
     // res.send(decrypt(text))
+    //QUang
 });
 app.post('/rule-engine/getToken',jsonParser, (req, res) => {
 
