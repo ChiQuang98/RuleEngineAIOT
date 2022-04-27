@@ -1,0 +1,13 @@
+{
+  "name": "RuleEngineMBF",
+  "version": "1.0.0",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "node-red": "^2.0.3",
+    "node-red-contrib-anomaly-by-time": "file:C:/Users/tien.nguyenvan10/Desktop/node-red-contrib-anomaly-by-time",
+    "node-red-contrib-anomaly-by-value": "file:C:/Users/tien.nguyenvan10/Desktop/node-red-contrib-anomaly-by-value",
+    "node-red-contrib-mobisms": "file:C:/Users/tien.nguyenvan10/Desktop/node-red-contrib-mobisms",
+    "node-red-node-email": "^1.12.3",
+    "sync-request": "^6.1.0"
+  }
+}
