@@ -197,7 +197,7 @@ app.get('/rule-engine/:token/:flowid', (req, res) => {
     req.session.flowid = req.params.flowid;
     req.session.save(function(err) {
         // session saved
-        return res.redirect('/red')
+        return res.redirect('/red/#flow')
     })
 
 });
